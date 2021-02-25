@@ -17,3 +17,6 @@ The process will automatically detect if the cron file changes.
 
 ## NOTES
 This is a simple scheduler, doesn't keep track of every execution in a DB or file neither it saves "last execution" for each cron file line. 
+
+### TODO
+Setting variables is not allowed at the moment.
