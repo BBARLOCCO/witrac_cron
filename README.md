@@ -7,10 +7,13 @@ Check Config.php for config options. You can set automatic emails on/off, custom
 ### Start
 In order to start the scheduler run php start.php on your terminal. 
 ### Stop
-In order to stop the scheduler run php stop.php on the terminal. 
+In order to stop the scheduler run php stop.php on your terminal. 
 
 ### Single instance
 The process will automatically detect if its already running (the last started one will remain working while the old one will auto-terminate).
 
 ### Automatic cron file changes detection
 The process will automatically detect if the cron file changes.
+
+## NOTES
+This is a simple scheduler, doesn't keep track of every execution in a DB or file neither it saves "last execution" for each cron file line. 
