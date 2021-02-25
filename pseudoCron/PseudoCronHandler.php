@@ -17,9 +17,9 @@ class PseudoCronHandler{
 			if ($file) {
 				while (($line = fgets($file)) !== false) {
 					$segments = explode(" ",$line);
-					if(sizeof($segments) > 5 || isset(Config::$shorcuts[$segments[0]])){
-						if( isset(Config::$shorcuts[$segments[0]])){
-							$periodicity = Config::$shorcuts[$segments[0]];
+					if(sizeof($segments) > 5 || isset(Config::$shortcuts[$segments[0]])){
+						if( isset(Config::$shortcuts[$segments[0]])){
+							$periodicity = Config::$shortcuts[$segments[0]];
 							$i=1;
 						}else{
 							$periodicity = Array($segments[0],$segments[1],$segments[2],$segments[3],$segments[4]);
