@@ -1,4 +1,4 @@
-# witrack_cron
+# witrac_cron
 Cron replacement in pure php
 
 ## Instructions
